@@ -1,0 +1,24 @@
+{
+  "name": "API-Test",
+  "version": "1.0.0",
+  "description": "An API with a GET and POST method setup on a node.js server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kur0a5h/API-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kur0a5h/API-Test/issues"
+  },
+  "homepage": "https://github.com/Kur0a5h/API-Test#readme",
+  "devDependencies": {
+    "casual": "^1.6.2",
+    "json-server": "^0.15.1"
+  }
+}
