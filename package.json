@@ -4,14 +4,14 @@
   "description": "An API with a GET and POST method setup on a node.js server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kur0a5h/API-Test.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kuroash Esmaili",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kur0a5h/API-Test/issues"
@@ -20,5 +20,10 @@
   "devDependencies": {
     "casual": "^1.6.2",
     "json-server": "^0.15.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
   }
 }
