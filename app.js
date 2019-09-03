@@ -26,5 +26,5 @@ server.post('/', (req, res) => {
 })
 
 server.listen(port, () => {
-    console.log("listening on port 7000");
+    console.log("listening on port:", port);
 })
